@@ -63,7 +63,11 @@
                 <h2 id="library-title">Available books</h2>
                 <p>Browse pre-loved stories and find your next read.</p>
             </div>
-            <div class="book-grid" id="book-grid">
+            <div class="book-carousel-controls" role="group" aria-label="Book navigation">
+                <button class="book-scroll-btn" type="button" data-scroll="-1" aria-label="Scroll books left">‹</button>
+                <button class="book-scroll-btn" type="button" data-scroll="1" aria-label="Scroll books right">›</button>
+            </div>
+            <div class="book-grid" id="book-grid" tabindex="0" aria-label="Books for sale">
                 <p class="library-empty">Books for sale will appear here soon.</p>
             </div>
         </div>
