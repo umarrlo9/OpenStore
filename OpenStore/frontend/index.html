@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OpenStore</title>
+    <link rel="stylesheet" href="styles/home.css">
+</head>
+<body>
+
+
+
+    <nav>
+        <div class="logo"><span class="icon">O</span>OpenStore</div>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Profile</a></li>
+        </ul>
+        <div id="reg">
+            <button onclick="regPage()" id="reg-btn" class="reg-btn">Register</button>
+        </div>
+    </nav>
+
+
+
+    <header>
+        <div class="head">
+            <h4> GOOD BOOKS DESERVE ANOTHER CHAPTER </h4>
+            <h1> Find your next favourite read! </h1>
+            <p> A little marketplace for well-loved books. Browse local finds or pass a story along to someone new. </p>
+            <h6> read it! Love it! Pass it on! </h6>
+        </div>
+    </header>
+
+
+
+    <main>
+        <div class="main">
+            <h1> The Shelve: </h1>
+            <h3> Second-hand stories, ready for a new home. </h3>
+            <div class="row">
+            <input class="search" type="text" placeholder="Search for the book, description or author">
+            <select class="condition">
+                <option> Any condition </option>
+                <option> New </option>
+                <option> Good </option>
+                <option> decent </option>
+                <option> Bad </option>
+            </select>
+            <select class="books">
+                <option> Recently added </option>
+                <option> From A to Z </option>
+                <option> High ranked </option>
+                <option> Low ranked </option>
+                <option> High priced </option>
+                <option> Free </option>
+            </select>
+            </div>
+        </div>
+        <div class="library" id="library" aria-labelledby="library-title">
+            <div class="library-heading">
+                <h2 id="library-title">Available books</h2>
+                <p>Browse pre-loved stories and find your next read.</p>
+            </div>
+            <div class="book-grid" id="book-grid">
+                <p class="library-empty">Books for sale will appear here soon.</p>
+            </div>
+        </div>
+    </main>
+    
+
+
+    <footer>
+
+    </footer>
+
+
+
+    <script src="scripts/home.js"></script>
+</body>
+</html>
